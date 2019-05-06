@@ -3,7 +3,7 @@
 view2048 = {
 
   model: model2048,
-  colors: [ "papayawhip", "darkkhaki", "coral", "sienna", "dodgerblue", "mediumblue", "darkred", "periwinkle", "lime", "aquamarine" ],
+  colors: [ "papayawhip", "darkkhaki", "coral", "sienna", "dodgerblue", "mediumblue", "orange", "burgundy", "lime", "aquamarine" ],
 
   init: function(  ) {
     this.update();
@@ -32,6 +32,7 @@ view2048 = {
       if( e.keyCode === 38 ) that.model.move("up");
       if( e.keyCode === 39 ) that.model.move("right");
       if( e.keyCode === 40 ) that.model.move("down");
+      that.update();
     });
   },
 

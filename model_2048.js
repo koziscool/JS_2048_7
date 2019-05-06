@@ -35,7 +35,7 @@ model2048 = {
 
   move: function( direction ) {
     this.updateGrid(direction);
-    this.insertTile();
+    this.insertRandomTile();
   },
 
   updateGrid: function( direction ) {
