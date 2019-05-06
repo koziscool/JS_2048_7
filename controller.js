@@ -8,5 +8,9 @@ controller2048 = {
     this.model.init();
     this.view.init();
   },
+
+
+
 }
+
 
